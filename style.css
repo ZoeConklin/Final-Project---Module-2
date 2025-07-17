@@ -80,7 +80,7 @@ nav {
 
 .nav__container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .nav__links {
@@ -242,6 +242,7 @@ HEADER
 
 .header__container {
     padding: 40px;
+    padding-top: 96px;
 }
 
 .header__row {
