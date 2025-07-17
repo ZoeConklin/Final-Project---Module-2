@@ -245,22 +245,28 @@ HEADER
     padding-top: 96px;
 }
 
+.header.\.row {
+  display: flex;
+}
+
 section {
     padding: 0 32px;
 }
 
 
 .header__description {
-    width: 41.6667%;
+    width: 40%;
 }
 
 .header__img--wrapper {
-    width: calc(100% -  41.6667%);
+    width: calc(100% - 40%);
 }
 
 .header__img {
-    width: 100%;
+    width: 90%;
     max-width: 768px;
+    margin-left: 26px;
+    margin-top: -28px;
 }
 
 .header__description--para {
@@ -334,7 +340,7 @@ section {
     letter-spacing: 0.6px;
 }
 
-.header__customers {
+.customer__logo {
     margin-top: 16px;
     padding-right: 128px;
     opacity: 0.5;
