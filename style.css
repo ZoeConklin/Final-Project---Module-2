@@ -245,22 +245,10 @@ HEADER
     padding-top: 96px;
 }
 
-.header__row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 section {
     padding: 0 32px;
 }
 
-
-header .row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .header__description {
     width: 41.6667%;
